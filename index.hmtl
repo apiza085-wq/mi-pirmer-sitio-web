@@ -1,1 +1,871 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investigación | Moda, belleza y decisiones de compra</title>
+    <link rel="stylesheet" href="tesis.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="header-content">
+        <h1>Consumo de contenido de moda y belleza en TikTok e Instagram y decisiones de compra estética</h1>
+        <p>Investigación escolar · Institución Educativa La Floresta · 2026</p>
+    </div>
+
+    <nav class="main-nav">
+        <a href="#portada">Inicio</a>
+        <a href="#introduccion">Introducción</a>
+        <a href="#problema">Problema</a>
+        <a href="#hipotesis-objetivos">Objetivos</a>
+        <a href="#justificacion-marco">Marco teórico</a>
+        <a href="#metodologia">Metodología</a>
+        <a href="#resultados">Resultados</a>
+        <a href="#conclusiones">Conclusiones</a>
+        <a href="#anexos">Anexos</a>
+        <a href="#referencias">Referencias</a>
+    </nav>
+</header>
+
+
+<main class="main-content">
+
+    <!-- PORTADA -->
+    <section id="portada" class="content-card active-card">
+        <div class="cover">
+            <p class="eyebrow">PROYECTO DE INVESTIGACIÓN · 2026</p>
+
+            <h2>Consumo de contenido de moda y belleza en TikTok e Instagram y decisiones de compra estética</h2>
+
+            <p class="cover-subtitle">
+                Una investigación sobre la relación entre el contenido digital
+                de moda y belleza y las compras de ropa, maquillaje y accesorios
+                de las estudiantes adolescentes.
+            </p>
+
+            <div class="cover-info">
+                <p><strong>Institución:</strong> Institución Educativa La Floresta</p>
+                <p><strong>Ubicación:</strong> Mosquera, Cundinamarca</p>
+                <p><strong>Población:</strong> Estudiantes de 14 a 18 años</p>
+                <p><strong>Año:</strong> 2026</p>
+            </div>
+
+            <a href="#introduccion" class="main-button">Conocer la investigación</a>
+        </div>
+    </section>
+
+
+    <!-- INTRODUCCIÓN -->
+    <section id="introduccion" class="content-card">
+        <h2>Introducción</h2>
+
+        <p>
+            En TikTok e Instagram circulan diariamente videos relacionados
+            con rutinas de maquillaje, outfits, tendencias, reseñas de productos
+            y compras mostradas por creadoras de contenido. Estos espacios
+            digitales permiten que las adolescentes conozcan diferentes
+            productos y estilos que pueden relacionarse con sus decisiones
+            de compra.
+        </p>
+
+        <p>
+            Esta investigación se desarrolla en la Institución Educativa
+            La Floresta, ubicada en Mosquera, Cundinamarca, y estudia la
+            relación entre el tiempo que las estudiantes de 14 a 18 años
+            dedican a consumir contenido de moda y belleza en TikTok e
+            Instagram y la frecuencia con que reportan haber comprado
+            ropa, maquillaje y accesorios después de verlo.
+        </p>
+
+        <p>
+            Para desarrollar el estudio se contó con la participación de
+            36 estudiantes de los grados octavo a once, quienes respondieron
+            un cuestionario anónimo. Los resultados permiten conocer sus
+            hábitos de consumo digital y las compras que reportan.
+        </p>
+
+        <div class="highlight-box">
+            <h3>Abstract</h3>
+
+            <p>
+                This study examined the relationship between the weekly time
+                that students aged 14 to 18 at Institución Educativa La Floresta
+                spend watching fashion and beauty content on TikTok and
+                Instagram and how often they report buying clothing, makeup,
+                and accessories after watching it.
+            </p>
+
+            <p>
+                The research used a quantitative, cross-sectional, and
+                correlational design. In September 2026, 36 students in grades
+                eight to eleven completed an anonymous 19-question
+                questionnaire through Microsoft Forms.
+            </p>
+
+            <p>
+                The results showed a positive and moderate association
+                between viewing time and reported purchases (rs = 0.48;
+                p = 0.003). Appearance comparison was reported by 47.2%
+                of the students and was not associated with purchases.
+                The findings describe associations and do not establish
+                that social media content causes purchases.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- PLANTEAMIENTO DEL PROBLEMA -->
+    <section id="problema" class="content-card">
+        <h2>Planteamiento del problema</h2>
+
+        <p>
+            Las redes sociales se han convertido en espacios donde las
+            adolescentes encuentran constantemente contenido relacionado
+            con la moda y la belleza. En plataformas como TikTok e Instagram
+            se muestran productos, rutinas de maquillaje, tendencias de ropa
+            y recomendaciones que pueden despertar interés por diferentes
+            artículos.
+        </p>
+
+        <p>
+            Aunque las estudiantes tienen acceso frecuente a este contenido,
+            no se conoce con claridad cómo se relaciona el tiempo que dedican
+            a verlo con las compras de ropa, maquillaje y accesorios que
+            reportan haber realizado después de consumirlo.
+        </p>
+
+        <p>
+            Por esta razón, la investigación busca analizar esta relación
+            en las estudiantes de 14 a 18 años de la Institución Educativa
+            La Floresta durante el año 2026.
+        </p>
+
+        <div class="highlight-box">
+            <h3>Pregunta de investigación</h3>
+            <p>
+                ¿Qué relación existe entre el tiempo semanal que las
+                estudiantes de 14 a 18 años de la Institución Educativa
+                La Floresta dedican a ver contenido de moda y belleza
+                en TikTok e Instagram y la frecuencia con que reportan
+                haber comprado ropa, maquillaje y accesorios después
+                de verlo, durante el año 2026?
+            </p>
+        </div>
+    </section>
+
+
+    <!-- HIPÓTESIS Y OBJETIVOS -->
+    <section id="hipotesis-objetivos" class="content-card">
+        <h2>Hipótesis y objetivos</h2>
+
+        <div class="highlight-box">
+            <h3>Hipótesis de investigación (H1)</h3>
+            <p>
+                Existe una asociación positiva entre el tiempo semanal
+                dedicado a ver contenido de moda y belleza en TikTok e
+                Instagram y la frecuencia con que las estudiantes reportan
+                haber comprado ropa, maquillaje y accesorios después
+                de verlo.
+            </p>
+
+            <h3>Hipótesis nula (H0)</h3>
+            <p>
+                No existe asociación entre el tiempo semanal dedicado
+                a ver este contenido y la frecuencia de compras reportadas.
+            </p>
+        </div>
+
+        <h3>Objetivo general</h3>
+
+        <p>
+            Analizar la relación entre el tiempo semanal que las estudiantes
+            de 14 a 18 años de la Institución Educativa La Floresta dedican
+            a ver contenido de moda y belleza en TikTok e Instagram y la
+            frecuencia con que reportan haber comprado ropa, maquillaje
+            y accesorios después de verlo, durante el año 2026.
+        </p>
+
+        <h3>Objetivos específicos</h3>
+
+        <div class="objective-card">
+            <h4>1. Caracterizar el consumo de contenido</h4>
+            <p>
+                Identificar el tiempo dedicado y los tipos de contenido
+                de moda y belleza que consumen las estudiantes en TikTok
+                e Instagram.
+            </p>
+        </div>
+
+        <div class="objective-card">
+            <h4>2. Describir las compras reportadas</h4>
+            <p>
+                Reconocer la frecuencia con que las estudiantes reportan
+                haber comprado ropa, maquillaje y accesorios después
+                de ver contenido de moda y belleza.
+            </p>
+        </div>
+
+        <div class="objective-card">
+            <h4>3. Analizar la relación entre consumo y compras</h4>
+            <p>
+                Examinar la asociación entre el tiempo semanal dedicado
+                a consumir contenido de moda y belleza y la frecuencia
+                de las compras reportadas.
+            </p>
+        </div>
+
+        <div class="objective-card">
+            <h4>4. Comparar las plataformas</h4>
+            <p>
+                Comparar los resultados relacionados con TikTok e Instagram
+                en las categorías de compra que permiten realizar esa comparación.
+            </p>
+        </div>
+
+        <div class="objective-card">
+            <h4>5. Identificar la categoría de mayor relación percibida</h4>
+            <p>
+                Reconocer si las estudiantes consideran que el contenido
+                de ropa, maquillaje o accesorios se relaciona más con
+                sus compras.
+            </p>
+        </div>
+
+        <div class="objective-card">
+            <h4>6. Explorar la comparación con la apariencia</h4>
+            <p>
+                Describir la frecuencia con que las estudiantes comparan
+                su apariencia con la de las personas que aparecen en
+                el contenido que consumen y explorar su relación con
+                las compras reportadas.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- JUSTIFICACIÓN Y MARCO TEÓRICO -->
+    <section id="justificacion-marco" class="content-card">
+        <h2>Justificación y marco teórico</h2>
+
+        <h3>Justificación</h3>
+
+        <p>
+            Esta investigación surge de la presencia que tienen TikTok
+            e Instagram en la vida cotidiana de las adolescentes y de
+            la cantidad de contenido relacionado con moda y belleza
+            que circula en estas plataformas.
+        </p>
+
+        <p>
+            Según la Comisión de Regulación de Comunicaciones (CRC, 2024),
+            el 77 % de los adolescentes colombianos de 14 a 17 años tiene
+            una cuenta en alguna red social. Sin embargo, el uso de estas
+            plataformas no demuestra por sí solo una relación con las
+            compras.
+        </p>
+
+        <p>
+            Por ello, el estudio busca aportar información sobre esta
+            situación en la Institución Educativa La Floresta, para que
+            sus resultados puedan servir como insumo de reflexión para
+            estudiantes, docentes y familias.
+        </p>
+
+        <h3>Conceptos principales</h3>
+
+        <div class="info-grid">
+            <div class="info-card">
+                <h4>Redes sociales</h4>
+                <p>
+                    Plataformas digitales que permiten compartir contenido,
+                    comunicarse e interactuar con otras personas.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <h4>Contenido de moda y belleza</h4>
+                <p>
+                    Publicaciones y videos relacionados con maquillaje,
+                    ropa, accesorios, tendencias y recomendaciones
+                    de productos.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <h4>Consumo digital</h4>
+                <p>
+                    Hábitos y prácticas que desarrollan las personas
+                    al utilizar plataformas y contenidos digitales.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <h4>Comparación social</h4>
+                <p>
+                    Proceso mediante el cual las personas evalúan sus
+                    características al compararse con otras.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <h4>Decisión de compra</h4>
+                <p>
+                    Proceso relacionado con la elección y adquisición
+                    de productos o servicios.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <h4>Adolescencia</h4>
+                <p>
+                    Etapa del desarrollo en la que se presentan cambios
+                    personales, sociales y relacionados con la construcción
+                    de identidad.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <h4>Imagen corporal</h4>
+                <p>
+                    Percepción y valoración que una persona tiene
+                    de su propio cuerpo y apariencia.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <h4>Validación social</h4>
+                <p>
+                    Reconocimiento o aprobación que una persona busca
+                    o recibe dentro de un grupo social.
+                </p>
+            </div>
+        </div>
+
+        <h3>Referentes teóricos</h3>
+
+        <div class="theory-card">
+            <h4>Leon Festinger: teoría de la comparación social</h4>
+            <p>
+                Festinger (1954) plantea que las personas evalúan sus
+                opiniones y capacidades mediante la comparación con
+                otras personas. En esta investigación sirve como referente
+                para interpretar la comparación con la apariencia que
+                reportan las estudiantes.
+            </p>
+        </div>
+
+        <div class="theory-card">
+            <h4>Wood: comparación social y atributos personales</h4>
+            <p>
+                Wood (1989) explica que las personas pueden compararse
+                con otras que consideran mejores o peores en determinadas
+                características. Estas comparaciones pueden tener diferentes
+                significados según la situación y la persona.
+            </p>
+        </div>
+
+        <div class="theory-card">
+            <h4>Boyd y Ellison: redes sociales</h4>
+            <p>
+                Sus planteamientos permiten comprender las redes sociales
+                como espacios digitales donde las personas construyen
+                perfiles, establecen conexiones e interactúan con otros
+                usuarios.
+            </p>
+        </div>
+
+        <div class="theory-card">
+            <h4>Engel y colaboradores: comportamiento del consumidor</h4>
+            <p>
+                Este referente permite interpretar el proceso de decisión
+                de compra y los diferentes factores que pueden relacionarse
+                con la elección de productos.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- METODOLOGÍA -->
+    <section id="metodologia" class="content-card">
+        <h2>Metodología</h2>
+
+        <p>
+            La investigación se desarrolló desde un enfoque cuantitativo,
+            con un diseño transversal y un alcance correlacional. Su
+            propósito fue analizar la relación entre el tiempo dedicado
+            al consumo de contenido de moda y belleza y las compras
+            reportadas por las estudiantes.
+        </p>
+
+        <p>
+            La recolección de información se realizó entre el 24 y el
+            27 de septiembre de 2026. Participaron 36 estudiantes de
+            los grados octavo a once, con edades entre 14 y 18 años,
+            quienes respondieron de manera anónima un cuestionario
+            de 19 preguntas mediante Microsoft Forms.
+        </p>
+
+        <h3>Instrumento de recolección de información</h3>
+
+        <p>
+            El cuestionario permitió conocer el uso de TikTok e Instagram,
+            el tiempo semanal dedicado a ver contenido de moda y belleza,
+            los tipos de publicaciones consumidas, la comparación con
+            la apariencia y las compras reportadas de ropa, maquillaje
+            y accesorios.
+        </p>
+
+        <div class="info-grid">
+            <div class="info-card">
+                <h4>Enfoque</h4>
+                <p>Cuantitativo</p>
+            </div>
+
+            <div class="info-card">
+                <h4>Diseño</h4>
+                <p>Transversal</p>
+            </div>
+
+            <div class="info-card">
+                <h4>Alcance</h4>
+                <p>Correlacional</p>
+            </div>
+
+            <div class="info-card">
+                <h4>Participantes</h4>
+                <p>36 estudiantes</p>
+            </div>
+
+            <div class="info-card">
+                <h4>Edades</h4>
+                <p>14 a 18 años</p>
+            </div>
+
+            <div class="info-card">
+                <h4>Grados</h4>
+                <p>Octavo a once</p>
+            </div>
+
+            <div class="info-card">
+                <h4>Instrumento</h4>
+                <p>Cuestionario de 19 preguntas</p>
+            </div>
+
+            <div class="info-card">
+                <h4>Plataforma</h4>
+                <p>Microsoft Forms</p>
+            </div>
+        </div>
+
+        <h3>Análisis de datos</h3>
+
+        <p>
+            Los datos se analizaron mediante pruebas estadísticas
+            no paramétricas. Se utilizó la correlación de Spearman
+            para examinar la asociación entre el tiempo de consumo
+            y las compras reportadas.
+        </p>
+    </section>
+
+
+    <!-- RESULTADOS -->
+    <section id="resultados" class="content-card">
+        <h2>Análisis de resultados</h2>
+
+        <p>
+            Los resultados corresponden a las respuestas de las 36
+            estudiantes participantes y permiten describir sus hábitos
+            de consumo de contenido de moda y belleza y las compras
+            que reportaron después de verlo.
+        </p>
+
+        <div class="result-card">
+            <h3>1. Uso de TikTok e Instagram</h3>
+            <p>
+                El 97,2 % de las estudiantes utiliza TikTok y el 91,7 %
+                utiliza Instagram. En ambas plataformas, la mediana
+                del tiempo semanal dedicado a este contenido se encuentra
+                entre 30 y 60 minutos.
+            </p>
+        </div>
+
+        <div class="result-card">
+            <h3>2. Tipos de contenido más consumidos</h3>
+            <p>
+                Las rutinas de maquillaje son el contenido más seleccionado,
+                con un 77,8 %. Les siguen los outfits y tendencias, con
+                un 61,1 %.
+            </p>
+            <ul>
+                <li>Rutinas de maquillaje: 77,8 %.</li>
+                <li>Outfits y tendencias: 61,1 %.</li>
+                <li>Get ready with me: 36,1 %.</li>
+                <li>Hauls o compras mostradas: 33,3 %.</li>
+                <li>Reseñas de productos: 30,6 %.</li>
+                <li>Comparaciones antes y después: 13,9 %.</li>
+            </ul>
+        </div>
+
+        <div class="result-card">
+            <h3>3. Compras reportadas</h3>
+            <p>
+                Entre el 72,7 % y el 91,7 % de las estudiantes reportó
+                haber comprado al menos rara vez productos después
+                de ver contenido de moda y belleza, dependiendo de
+                la categoría y la plataforma.
+            </p>
+            <p>
+                En el 86,1 % de los casos, los padres o acudientes
+                participan en el pago de las compras.
+            </p>
+        </div>
+
+        <div class="result-card">
+            <h3>4. Relación entre el tiempo de consumo y las compras</h3>
+            <p>
+                Se encontró una asociación positiva y moderada entre
+                el tiempo dedicado a ver contenido de moda y belleza
+                y las compras reportadas (rs = 0,48; p = 0,003).
+            </p>
+            <p>
+                Esto significa que las estudiantes que dedican más
+                tiempo a consumir este contenido tienden a reportar
+                más compras. Sin embargo, este resultado no demuestra
+                que el contenido sea la causa de esas compras.
+            </p>
+        </div>
+
+        <div class="result-card">
+            <h3>5. Comparación entre TikTok e Instagram</h3>
+            <p>
+                TikTok fue la plataforma en la que más estudiantes
+                manifestaron interés por los productos que ven,
+                con un 52,8 %. Instagram fue seleccionada por el
+                25,0 % y ambas plataformas por el 22,2 %.
+            </p>
+            <p>
+                La asociación entre tiempo y compras se observó
+                con mayor claridad en Instagram que en TikTok.
+                Sin embargo, no se encontraron diferencias generales
+                suficientes para afirmar que una plataforma tenga
+                una relación mayor que la otra.
+            </p>
+        </div>
+
+        <div class="result-card">
+            <h3>6. Categoría con mayor relación percibida</h3>
+            <p>
+                El maquillaje fue la categoría que más estudiantes
+                señalaron como relacionada con sus compras después
+                de ver contenido en redes sociales.
+            </p>
+            <ul>
+                <li>Maquillaje: 55,6 %.</li>
+                <li>Ropa: 30,6 %.</li>
+                <li>Accesorios: 13,9 %.</li>
+            </ul>
+        </div>
+
+        <div class="result-card">
+            <h3>7. Comparación con la apariencia</h3>
+            <p>
+                El 47,2 % de las estudiantes manifestó compararse
+                a veces o con mayor frecuencia con la apariencia
+                de las personas que ve en el contenido digital.
+            </p>
+            <p>
+                Sin embargo, esta comparación no presentó una
+                asociación significativa con las compras reportadas
+                (rs = 0,15).
+            </p>
+        </div>
+
+        <div class="highlight-box">
+            <h3>Hallazgo general</h3>
+            <p>
+                El principal hallazgo fue la existencia de una asociación
+                positiva y moderada entre el tiempo dedicado a consumir
+                contenido de moda y belleza y la frecuencia de compras
+                reportadas por las estudiantes. Esta asociación debe
+                interpretarse con cautela, debido al tamaño y tipo
+                de muestra y al carácter autorreportado de los datos.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- CONCLUSIONES -->
+    <section id="conclusiones" class="content-card">
+        <h2>Conclusiones</h2>
+
+        <div class="conclusion-card">
+            <span class="number">01</span>
+            <div>
+                <h3>Consumo de contenido</h3>
+                <p>
+                    Casi todas las estudiantes participantes utilizan
+                    TikTok e Instagram. Las rutinas de maquillaje
+                    y los outfits y tendencias son los contenidos
+                    que más consumen.
+                </p>
+            </div>
+        </div>
+
+        <div class="conclusion-card">
+            <span class="number">02</span>
+            <div>
+                <h3>Compras reportadas</h3>
+                <p>
+                    Reportar compras después de ver contenido de moda
+                    y belleza es habitual entre las participantes.
+                    Además, los padres o acudientes participan en
+                    el pago en la mayoría de los casos.
+                </p>
+            </div>
+        </div>
+
+        <div class="conclusion-card">
+            <span class="number">03</span>
+            <div>
+                <h3>Relación entre tiempo y compras</h3>
+                <p>
+                    Se encontró una asociación positiva y moderada
+                    entre el tiempo de consumo y las compras reportadas.
+                    Las estudiantes que dedican más tiempo tienden
+                    a reportar más compras.
+                </p>
+            </div>
+        </div>
+
+        <div class="conclusion-card">
+            <span class="number">04</span>
+            <div>
+                <h3>TikTok e Instagram</h3>
+                <p>
+                    Aunque ambas plataformas son utilizadas por las
+                    estudiantes, los resultados no permiten afirmar
+                    que existan diferencias generales significativas
+                    entre ellas en las compras comparadas.
+                </p>
+            </div>
+        </div>
+
+        <div class="conclusion-card">
+            <span class="number">05</span>
+            <div>
+                <h3>Comparación con la apariencia</h3>
+                <p>
+                    Aunque una parte de las estudiantes manifiesta
+                    compararse con la apariencia de las personas
+                    que ve en redes sociales, esta variable no
+                    presentó una asociación significativa con
+                    las compras reportadas.
+                </p>
+            </div>
+        </div>
+
+        <div class="conclusion-card">
+            <span class="number">06</span>
+            <div>
+                <h3>Conclusión general</h3>
+                <p>
+                    La investigación encontró una relación entre
+                    el tiempo de consumo de contenido de moda y
+                    belleza y las compras reportadas por las
+                    estudiantes participantes. No obstante,
+                    los resultados describen una asociación
+                    y no demuestran que el contenido digital
+                    cause las compras.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ANEXOS -->
+    <section id="anexos" class="content-card">
+        <h2>Anexos</h2>
+
+        <p>
+            Para la recolección de información se utilizó un cuestionario
+            anónimo de 19 preguntas aplicado mediante Microsoft Forms.
+            El instrumento permitió obtener información sobre los
+            siguientes aspectos:
+        </p>
+
+        <h3>1. Datos generales y uso de plataformas</h3>
+        <ul>
+            <li>Curso de las estudiantes.</li>
+            <li>Edad de las participantes.</li>
+            <li>Uso de TikTok.</li>
+            <li>Uso de Instagram.</li>
+            <li>Tiempo semanal dedicado a cada plataforma.</li>
+        </ul>
+
+        <h3>2. Tipos de contenido consumido</h3>
+        <ul>
+            <li>Rutinas de maquillaje.</li>
+            <li>Outfits y tendencias.</li>
+            <li>Get ready with me.</li>
+            <li>Hauls o compras mostradas.</li>
+            <li>Reseñas de productos.</li>
+            <li>Comparaciones antes y después.</li>
+        </ul>
+
+        <h3>3. Comparación con la apariencia</h3>
+        <p>
+            Se exploró con qué frecuencia las estudiantes se comparan
+            con la apariencia de las personas que aparecen en los
+            contenidos que consumen, si sienten que deberían verse
+            como ellas y si se sienten menos conformes con su apariencia
+            o sus prendas después de ver ese contenido.
+        </p>
+
+        <h3>4. Compras reportadas</h3>
+        <p>
+            Se preguntó por la frecuencia con que las estudiantes
+            reportan haber comprado ropa, maquillaje y accesorios
+            después de ver contenido de moda y belleza en TikTok
+            e Instagram.
+        </p>
+
+        <h3>5. Información sobre las compras</h3>
+        <ul>
+            <li>Quién aporta el dinero para las compras.</li>
+            <li>Categoría que las estudiantes consideran más relacionada con el contenido de redes sociales.</li>
+        </ul>
+
+        <div class="highlight-box">
+            <h3>Instrumento de investigación</h3>
+            <p>
+                El cuestionario completo y el libro de códigos
+                se encuentran en los anexos del documento de tesis.
+                Las respuestas fueron utilizadas para realizar
+                el análisis estadístico de la investigación.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- REFERENCIAS -->
+    <section id="referencias" class="content-card">
+        <h2>Referencias bibliográficas</h2>
+
+        <p>
+            A continuación se presentan algunos de los referentes
+            teóricos y documentos utilizados en la investigación.
+        </p>
+
+        <div class="reference-list">
+
+            <p>
+                Boyd, D. (2014). <em>It's Complicated: The Social Lives
+                of Networked Teens.</em> Yale University Press.
+            </p>
+
+            <p>
+                Boyd, D. M., &amp; Ellison, N. B. (2007).
+                Social Network Sites: Definition, History, and Scholarship.
+                <em>Journal of Computer-Mediated Communication, 13</em>(1),
+                210–230.
+            </p>
+
+            <p>
+                Cash, T. F. (2004). Body image: Past, present, and future.
+                <em>Body Image, 1</em>(1), 1–5.
+            </p>
+
+            <p>
+                Comisión de Regulación de Comunicaciones (CRC). (2024).
+                <em>Infancia y Medios Audiovisuales: Consumo,
+                Mediación Parental y Apropiación.</em>
+            </p>
+
+            <p>
+                Engel, J. F., Blackwell, R. D., &amp; Miniard, P. W. (1995).
+                <em>Consumer Behavior.</em> Dryden Press.
+            </p>
+
+            <p>
+                Festinger, L. (1954). A theory of social comparison processes.
+                <em>Human Relations, 7</em>(2), 117–140.
+            </p>
+
+            <p>
+                Katz, E., Blumler, J. G., &amp; Gurevitch, M. (1973).
+                Uses and gratifications research.
+                <em>The Public Opinion Quarterly, 37</em>(4), 509–523.
+            </p>
+
+            <p>
+                Van Dijck, J. (2013).
+                <em>The Culture of Connectivity: A Critical History
+                of Social Media.</em> Oxford University Press.
+            </p>
+
+            <p>
+                Wood, J. V. (1989). Theory and research concerning
+                social comparisons of personal attributes.
+                <em>Psychological Bulletin, 106</em>(2), 231–248.
+            </p>
+
+        </div>
+    </section>
+
+</main>
+
+
+<footer class="site-footer">
+    <p>Institución Educativa La Floresta · Proyecto de investigación · 2026</p>
+    <p>Consumo de contenido de moda y belleza en TikTok e Instagram y decisiones de compra estética</p>
+</footer>
+
+
+<script>
+    const navigationLinks = document.querySelectorAll(".main-nav a");
+    const contentCards = document.querySelectorAll(".content-card");
+
+    function showSection(sectionId) {
+        contentCards.forEach(card => {
+            card.classList.remove("active-card");
+        });
+
+        const selectedSection = document.querySelector(sectionId);
+
+        if (selectedSection) {
+            selectedSection.classList.add("active-card");
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        }
+    }
+
+    navigationLinks.forEach(link => {
+        link.addEventListener("click", function(event) {
+            event.preventDefault();
+
+            const sectionId = this.getAttribute("href");
+            showSection(sectionId);
+
+            history.replaceState(null, "", sectionId);
+        });
+    });
+
+    window.addEventListener("DOMContentLoaded", function() {
+        const initialSection = window.location.hash;
+
+        if (initialSection && document.querySelector(initialSection)) {
+            showSection(initialSection);
+        } else {
+            showSection("#portada");
+        }
+    });
+</script>
+
+</body>
+</html>
+
