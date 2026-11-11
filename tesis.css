@@ -1,0 +1,560 @@
+
+/* ==========================================
+   1. CONFIGURACIÓN GENERAL
+   ========================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #f4f7fe;
+    color: #333333;
+    min-height: 100vh;
+    display: block;
+    line-height: 1.6;
+}
+
+:root {
+    --azul-oscuro: #1B2559;
+    --azul-principal: #3155a4;
+    --azul-suave: #e9edf7;
+    --fondo: #f4f7fe;
+    --texto: #333333;
+    --blanco: #ffffff;
+}
+
+/* ==========================================
+   2. ENCABEZADO PRINCIPAL
+   ========================================== */
+
+.site-header {
+    width: 100%;
+    background: #ffffff;
+    padding: 45px 6%;
+    border-bottom: 1px solid #e9edf7;
+}
+
+.site-header .container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.brand h2 {
+    color: var(--azul-oscuro);
+}
+
+.site-header h1 {
+    max-width: 1000px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    color: var(--azul-oscuro);
+    font-size: 2.5rem;
+    line-height: 1.25;
+    font-weight: 750;
+}
+
+.subtitle {
+    color: #64708b;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.author-line {
+    color: #707ebe;
+    font-size: 0.95rem;
+}
+
+/* ==========================================
+   3. INSIGNIAS
+   ========================================== */
+
+.badge {
+    display: inline-block;
+    background: #e9e3ff;
+    color: var(--azul-oscuro);
+    padding: 7px 15px;
+    border-radius: 25px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* ==========================================
+   4. MENÚ DE NAVEGACIÓN
+   ========================================== */
+
+.main-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 1px solid #e9edf7;
+    box-shadow: 0 5px 15px rgba(27, 37, 89, 0.04);
+}
+
+.main-nav .container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 15px 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 22px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #596789;
+    font-size: 0.92rem;
+    font-weight: 600;
+    padding: 8px 5px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.25s ease;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+    color: var(--azul-oscuro);
+    border-bottom-color: var(--azul-principal);
+}
+
+/* ==========================================
+   5. ÁREA PRINCIPAL DE CONTENIDO
+   ========================================== */
+
+.main-content {
+    width: calc(100% - 80px);
+    max-width: 1300px;
+    margin: 40px auto;
+    padding: 0;
+}
+
+/* ==========================================
+   6. TARJETAS DE CADA SECCIÓN
+   ========================================== */
+
+.content-card {
+    display: none;
+
+    width: 100%;
+    max-width: none;
+    min-height: 550px;
+
+    background: var(--blanco);
+    border-radius: 14px;
+
+    /* Espaciado interno de referencia APA */
+    padding: 2.54cm;
+
+    box-shadow: 0 12px 35px rgba(27, 37, 89, 0.08);
+
+    animation: aparecer 0.4s ease;
+}
+
+.content-card.active-card {
+    display: block;
+}
+
+/* ==========================================
+   7. TÍTULOS
+   ========================================== */
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--azul-oscuro);
+    font-weight: 700;
+}
+
+.content-card h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.content-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 22px;
+    line-height: 1.35;
+}
+
+.content-card h3 {
+    font-size: 1.3rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.content-card h4 {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* ==========================================
+   8. TEXTO Y PÁRRAFOS
+   ========================================== */
+
+.content-card p {
+    max-width: 100%;
+    color: var(--texto);
+    font-size: 1rem;
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.content-card strong {
+    color: var(--azul-oscuro);
+}
+
+.content-card ul,
+.content-card ol {
+    margin: 15px 0 25px 25px;
+    padding-left: 10px;
+    color: var(--texto);
+    line-height: 2;
+}
+
+.content-card li {
+    margin-bottom: 8px;
+}
+
+/* ==========================================
+   9. SEPARADORES
+   ========================================== */
+
+.divider {
+    border: none;
+    height: 3px;
+    width: 100%;
+    background: #e9edf7;
+    margin: 15px 0 30px;
+    border-radius: 5px;
+}
+
+/* ==========================================
+   10. CUADRÍCULAS DE INFORMACIÓN
+   ========================================== */
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(220px, 1fr)
+    );
+    gap: 22px;
+    margin-top: 30px;
+}
+
+.floating-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+/* ==========================================
+   11. CAJAS DE INFORMACIÓN
+   ========================================== */
+
+.info-box,
+.float-box {
+    flex: 1;
+    min-width: 220px;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 14px;
+    border: 1px solid #e9edf7;
+
+    box-shadow: 0 8px 25px rgba(27, 37, 89, 0.05);
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.info-box:hover,
+.float-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 30px rgba(27, 37, 89, 0.10);
+}
+
+.info-box h3,
+.float-box h3 {
+    color: var(--azul-oscuro);
+    font-size: 1.15rem;
+    margin: 0 0 12px;
+}
+
+.info-box p,
+.float-box p {
+    margin-bottom: 0;
+    text-align: left;
+}
+
+/* ==========================================
+   12. PORTADA
+   ========================================== */
+
+.card-header {
+    margin-bottom: 30px;
+}
+
+.card-header h1,
+.card-header h2 {
+    color: var(--azul-oscuro);
+    margin-top: 18px;
+}
+
+.card-body {
+    margin-top: 25px;
+}
+
+/* ==========================================
+   13. CAJAS DESTACADAS
+   ========================================== */
+
+.highlight-box {
+    background: #f4f7fe;
+    border-left: 5px solid var(--azul-principal);
+    padding: 25px;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+
+.highlight-box h3 {
+    margin-top: 0;
+    color: var(--azul-oscuro);
+}
+
+.highlight-box p {
+    margin-bottom: 0;
+}
+
+/* ==========================================
+   14. OBJETIVOS
+   ========================================== */
+
+.objective {
+    background: #f8f9fd;
+    border: 1px solid #e9edf7;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 18px 0;
+}
+
+.objective h4 {
+    color: var(--azul-oscuro);
+    margin-top: 0;
+}
+
+.objective p {
+    margin-bottom: 0;
+}
+
+/* ==========================================
+   15. PALABRAS CLAVE
+   ========================================== */
+
+.keywords {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.keywords strong {
+    color: var(--azul-oscuro);
+}
+
+.keywords span {
+    display: inline-block;
+    background: #eef1fa;
+    color: var(--azul-oscuro);
+    padding: 7px 12px;
+    border-radius: 8px;
+    font-size: 0.88rem;
+}
+
+/* ==========================================
+   16. REFERENCIAS
+   ========================================== */
+
+.ref-list {
+    margin-left: 25px;
+    line-height: 2;
+    color: var(--texto);
+}
+
+/* ==========================================
+   17. NOTAS
+   ========================================== */
+
+.note {
+    color: #777777;
+    font-size: 0.9rem;
+    font-style: italic;
+    border-left: 3px solid #cbd3e5;
+    padding-left: 15px;
+}
+
+/* ==========================================
+   18. ENLACES GENERALES
+   ========================================== */
+
+.content-card a {
+    color: var(--azul-principal);
+    text-decoration: none;
+}
+
+.content-card a:hover {
+    text-decoration: underline;
+}
+
+/* ==========================================
+   19. PIE DE PÁGINA
+   ========================================== */
+
+.site-footer {
+    width: 100%;
+    padding: 30px 20px;
+    background: #ffffff;
+    border-top: 1px solid #e9edf7;
+    text-align: center;
+    color: #707ebe;
+    font-size: 0.9rem;
+}
+
+.site-footer p {
+    margin-bottom: 8px;
+}
+
+.site-footer a {
+    color: var(--azul-principal);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+/* ==========================================
+   20. ANIMACIÓN
+   ========================================== */
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ==========================================
+   21. TABLETAS
+   ========================================== */
+
+@media (max-width: 1000px) {
+
+    .main-content {
+        width: calc(100% - 50px);
+    }
+
+    .content-card {
+        padding: 2cm;
+    }
+
+    .site-header h1 {
+        font-size: 2.1rem;
+    }
+
+}
+
+/* ==========================================
+   22. CELULARES
+   ========================================== */
+
+@media (max-width: 768px) {
+
+    .site-header {
+        padding: 30px 20px;
+    }
+
+    .site-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .main-nav {
+        position: relative;
+    }
+
+    .main-nav .container {
+        justify-content: flex-start;
+        padding: 12px 18px;
+        gap: 8px 15px;
+    }
+
+    .main-nav a {
+        font-size: 0.85rem;
+    }
+
+    .main-content {
+        width: calc(100% - 25px);
+        margin: 20px auto;
+    }
+
+    .content-card {
+        padding: 25px;
+        min-height: 400px;
+    }
+
+    .content-card h2 {
+        font-size: 1.5rem;
+    }
+
+    .content-card p {
+        font-size: 0.95rem;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .info-box,
+    .float-box {
+        min-width: 100%;
+    }
+
+}
+
+/* ==========================================
+   23. PANTALLAS MUY PEQUEÑAS
+   ========================================== */
+
+@media (max-width: 400px) {
+
+    .site-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .content-card {
+        padding: 20px;
+    }
+
+    .main-content {
+        width: calc(100% - 20px);
+    }
+
+}
